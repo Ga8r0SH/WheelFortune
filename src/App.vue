@@ -1,6 +1,6 @@
 <template>
   <div class="content">
-    <img class="image" :src="money" alt="">
+    <img :src="man" alt="">
     <wheelOfFortune />
   </div>
 </template>
@@ -8,22 +8,21 @@
 
 <script setup>
 import wheelOfFortune from './components/wheelOfFortune.vue';
-import money from './assets/money.png'
+import man from './assets/man.png'
 </script>
 
 
 
 <style scoped>
 .content{
+  position: relative;
   margin: 0;
   display: flex;
   place-items: center;
   min-width: 320px;
-  min-height: 100vh;
 }
-.image{
+img{
   position: absolute;
-  left: 0;
-  max-height: 100vh;
+  left: -650px;
 }
 </style>
