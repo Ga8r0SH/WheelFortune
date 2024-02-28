@@ -31,9 +31,9 @@ a:hover {
 }
 
 body {
-  background-image:url('./assets/studio-background-concept-dark-gradient-purple-studio-room-background-for-product.jpg');
+  background-image:url('./assets/bg.jpg');
   background-size:cover;
-  background-size:100%;
+  background-repeat:no-repeat ;
   margin: 0;
   display: flex;
   place-items: center;
